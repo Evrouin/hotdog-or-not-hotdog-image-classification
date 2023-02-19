@@ -1,6 +1,8 @@
 # Binary Image Classification with TensorFlow using Inception ResNet V2
 
-This is a binary image classification project that uses a convolutional neural network (CNN) to detect whether an image is a "hotdog" or "not hotdog." The project utilizes transfer learning to fine-tune a pre-trained Inception ResNet V2 model for image classification.
+This is a binary image classification project that uses a convolutional neural network (CNN) to detect whether an image is a "hotdog" or "not hotdog." The project utilizes transfer learning to fine-tune several pre-trained models, including `AlexNet`, `VGG19`, `ResNet50`, and `Inception V3`, for image classification.
+
+After comparing the results of these models, the Inception ResNet V2 model was found to produce the most outstanding results, and thus was used as the final model in this project.
 
 ## Dataset 
 The [dataset](https://www.kaggle.com/datasets/thedatasith/hotdog-nothotdog) comprises `4,642 images` in total, split evenly between "hotdog" and "not hotdog" categories, with `2,121 images` for training and `200 images` for testing.
